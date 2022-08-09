@@ -1,0 +1,20 @@
+.header {
+    width: 100%;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    position: absolute;
+
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    cursor: pointer;
+}

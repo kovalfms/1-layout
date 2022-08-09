@@ -1,0 +1,89 @@
+.tabs {
+    background-color: #f5f5f5;
+    position: relative;
+
+}
+
+.tabs__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 110px 0 140px;
+}
+
+.tabs__btns {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#tab_01:checked ~ .tabs__info-first,
+#tab_02:checked ~ .tabs__info-second,
+#tab_03:checked ~ .tabs__info-third {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.7s;
+}
+
+#tab_01:checked ~ .tab1,
+#tab_02:checked ~ .tab2,
+#tab_03:checked ~ .tab3 {
+    background-color: #ff8b38;
+}
+
+.tabs__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    height: 112px;
+    width: 112px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Open Sans Bold', 'Open Sans Regular', 'Open Sans', serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.tabs__item:hover {
+    opacity: 50%;
+}
+
+.tabs__info {
+    position: absolute;
+    padding: 5px;
+    max-width: 487px;
+    margin-left: 200px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.tabs__title {
+    font-family: 'Open Sans Bold', 'Open Sans Regular', 'Open Sans', serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.tabs__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #86878b;
+    width: 100%;
+}
+
+.tabs__photo {
+    margin-left: 100px;
+    margin-top: 30px;
+    max-width: 220px;
+    height: auto;
+}

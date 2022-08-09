@@ -1,0 +1,58 @@
+.social {
+    position: relative;
+    background: #ffffff;
+}
+
+.social:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.social__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.social__media {
+    width: 100%;
+    max-width: 360px;
+}
+
+.social__title {
+    font-family: 'Open Sans Bold', 'Open Sans Regular', 'Open Sans', serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.social__text {
+    margin-top: 5px;
+    font-family: 'Open Sans Regular', 'Open Sans', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #a4a5a8;
+}
+
+.social__links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+}
+
+.social__links a:hover {
+    color: #333333;
+}
+
+.social__links a {
+    color: #a4a5a8;
+}

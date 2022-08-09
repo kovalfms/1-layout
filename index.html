@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>axit</title>
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;
-          700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito
+    :wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=
+    Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&
+    family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/fe0dab9826.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -101,25 +102,60 @@
     <div class="container">
         <div class="tabs__content">
             <div class="tabs__btns">
-                <button class="tabs__item active">Tab 1</button>
-                <button class="tabs__item">Tab 2</button>
-                <button class="tabs__item">Tab 3</button>
-            </div>
-            <div class="tabs__info active">
-                <h3 class="tabs__title">Tabs with soft transitioning effect.</h3>
-                <div class="tabs__text">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                        penatibus et magnis dis parturient montes.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                        bibendum laoreet.
-                    </p>
+                <input name="tabs" class="tab" type="radio" id="tab_01" checked="checked"/>
+                <label for="tab_01" class="tabs__item tab1">Tab 1</label>
+                <div class="tabs__info tabs__info-first">
+                    <h3 class="tabs__title">Tabs with soft transitioning effect.</h3>
+                    <div class="tabs__text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                            penatibus et magnis dis parturient montes.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet.
+                        </p>
+                    </div>
+                    <button class="btn btn__orange">Download</button>
                 </div>
-                <button class="btn btn__orange">Download</button>
+                <input name="tabs" class="tab" type="radio" id="tab_02"/>
+                <label for="tab_02" class="tabs__item tab2">Tab 2</label>
+                <div class="tabs__info tabs__info-second">
+                    <h3 class="tabs__title">Tab 2 Headline</h3>
+                    <div class="tabs__text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                            penatibus et magnis dis parturient montes.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet.
+                        </p>
+                    </div>
+                </div>
+                <input name="tabs" class="tab" type="radio" id="tab_03"/>
+                <label for="tab_03" class="tabs__item tab3">Tab 3</label>
+                <div class="tabs__info tabs__info-third">
+                    <h3 class="tabs__title">Tab 3 Headline</h3>
+                    <div class="tabs__text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                            penatibus et magnis dis parturient montes.
+                        </p>
+                        <p>
+                            Per at impetus diceret, detracto recteque persecuti eum ne, diceret facilisi
+                            consulatu has id. Cetero rationibus constituto ea quo, ex pri mutat propriae
+                            vituperatoribus. Eum ad feugiat democritum cotidieque. Legere praesent periculis
+                            ex pro. At per tantas reformidans, ex laoreet partiendo constituam eum, nam commune...
+                        </p>
+                    </div>
+                </div>
             </div>
             <div class="tabs__photo"><img class="tabs__img" src="/public/img/image_right_u25.png" alt="city"></div>
         </div>
@@ -161,6 +197,210 @@
                         <div class="item__text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
                             bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="standard">
+    <div class="container">
+        <div class="standard__content">
+            <div class="standard__info">
+                <div class="sub__title">Standard Picture Section</div>
+                <div class="sub__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                    euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                    et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis
+                    natoque penatibus et magnis dis parturient montes.
+                </div>
+                <div class="standard__items">
+                    <div class="standard__item">
+                        <div class="standard__text">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                bibendum laoreet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="sub__img" src="/public/img/image_right_sta.png" alt="roofs">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="awesome">
+    <div class="container">
+        <div class="awesome__header">
+            <h3 class="awesome__title">WHY THIS AWESOME</h3>
+            <div class="awesome__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="why">
+            <div class="why__item">
+                <img class="why__icon" src="/public/img/lamp.png" alt="lamp">
+                <h4 class="why__title">Thoughtful Design</h4>
+                <div class="why__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                    euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                    et viverra.
+                </div>
+            </div>
+
+            <div class="why__item">
+                <img class="why__icon" src="/public/img/keyboard.png" alt="keyboard">
+                <h4 class="why__title">Well Crafted</h4>
+                <div class="why__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                    euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                    et viverra.
+                </div>
+            </div>
+
+            <div class="why__item">
+                <img class="why__icon" src="/public/img/lightning.png" alt="lightning">
+                <h4 class="why__title">Easy to Customize</h4>
+                <div class="why__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                    euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                    et viverra.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pricing">
+    <div class="container">
+        <div class="pricing__header">
+            <h3 class="pricing__title">PRICING OPTIONS</h3>
+            <div class="pricing__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+
+        <div class="price">
+            <div class="price__item">
+                <div class="price__content">
+                    <div class="price__top">
+                        <div class="price__header">
+                            <div class="price__title">Basic</div>
+                        </div>
+                        <div class="price__price">$<span class="price__count">0</span>
+                            <div class="price__sup">Free for Life</div>
+                        </div>
+                    </div>
+                    <div class="price__desc">
+                        <div class="desc__item">1 GB OF SPACE</div>
+                        <div class="desc__item">10 GB OF BANDWIDTH</div>
+                        <div class="desc__item">3 WEBSITES</div>
+                        <div class="desc__item">BASIC CUSTOMIZATION</div>
+                        <div class="desc__item">WORDPRESS INTEGRATION</div>
+                        <div class="desc__item">EMAIL SUPPORT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="price__item price__item2">
+                <div class="price__content">
+                    <div class="price__top">
+                        <div class="price__header">
+                            <div class="price__title">Professional</div>
+                        </div>
+                        <div class="price__price">$<span class="price__count">19</span>
+                            <div class="price__sup">Monthly Payment</div>
+                        </div>
+                        <div class="price__pop">OUR MOST POPULAR</div>
+                    </div>
+                    <div class="price__desc">
+                        <div class="desc__item">5 GB OF SPACE</div>
+                        <div class="desc__item">50 GB OF BANDWIDTH</div>
+                        <div class="desc__item">12 WEBSITES</div>
+                        <div class="desc__item">ADVANCED CUSTOMIZATION</div>
+                        <div class="desc__item">WORDPRESS INTEGRATION</div>
+                        <div class="desc__item">EMAIL SUPPORT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="price__item">
+                <div class="price__content">
+                    <div class="price__top">
+                        <div class="price__header">
+                            <div class="price__title">Enterprise</div>
+                        </div>
+                        <div class="price__price"><span class="price_cur">$</span><span class="price__count">7<span
+                                class="price__count2">0</span></span>
+                            <div class="price__sup">Monthly Payment</div>
+                        </div>
+                    </div>
+                    <div class="price__desc">
+                        <div class="desc__item">UNLIMITED SPACE</div>
+                        <div class="desc__item">50 GB OF BANDWIDTH</div>
+                        <div class="desc__item">12 WEBSITES</div>
+                        <div class="desc__item">ADVANCED CUSTOMIZATION</div>
+                        <div class="desc__item">WORDPRESS INTEGRATION</div>
+                        <div class="desc__item">EMAIL SUPPORT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="customers">
+        <div class="container">
+            <div class="customers__header">
+                <h3 class="customers__title">WHAT OUR CUSTOMERS ARE SAYING</h3>
+                <div class="customers__text">
+                    <div class="customers__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="clients">
+                    <div class="clients__item">
+                        <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </div>
+                        <div class="clients__ppl">
+                            <div class="clients__photo"><img src="" alt=""></div>
+                            <div class="clients__info">
+                                <div class="clients__name">Jeremy H.</div>
+                                <div class="clients__prof">Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clients__item">
+                        <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </div>
+                        <div class="clients__ppl">
+                            <div class="clients__photo"><img src="" alt=""></div>
+                            <div class="clients__info">
+                                <div class="clients__name">John S.</div>
+                                <div class="clients__prof">Freekancer</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clients__item">
+                        <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </div>
+                        <div class="clients__ppl">
+                            <div class="clients__photo"><img src="" alt=""></div>
+                            <div class="clients__info">
+                                <div class="clients__name">Susan W.</div>
+                                <div class="clients__prof">Photographer</div>
+                            </div>
                         </div>
                     </div>
                 </div>
