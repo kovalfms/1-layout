@@ -1,0 +1,47 @@
+@import "buttons.css";
+
+
+.stylish {
+    width: 100%;
+    position: relative;
+    background: url(/public/img/banner2.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.stylish__header {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto 50px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.stylish__subtitle{
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.stylish__subtitle:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    margin: 25px auto;
+    background-color: #fff;
+}
+
+.stylish__text{
+    font-family: 'Raleway Light', 'Raleway Regular', 'Raleway', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFFCC;
+    text-align: center;
+    line-height: 23px;
+}

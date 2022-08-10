@@ -1,41 +1,6 @@
-.pricing {
-    padding: 100px 0;
-    background-color: #F5F5F5;
-}
-
-.pricing__header {
-    width: 100%;
-    max-width: 750px;
-    margin: 0 auto 50px;
-    text-align: center;
-}
-
-.pricing__title {
-    color: #212121;
-    font-size: 36px;
-    font-family: "Open Sans", "Ppe";
-    font-weight: 400;
-    margin-bottom: 5px;
-}
-
-.pricing__title:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 2px;
-    margin: 25px auto;
-    background-color: #ff8b38;
-}
-
-.pricing__text {
-    font-size: 14px;
-    font-weight: 400;
-    color: #86878b;
-    line-height: 1.4;
-}
-
 .price {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 40px;
     overflow: visible;
@@ -122,4 +87,32 @@
     text-align: center;
     padding: 10px 0;
     border-bottom: 1px solid #f5f5f5;
+}
+
+
+/* Medium Devices, Desktops */
+@media screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width : 768px) {
+    .price {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .price__item {
+        width: 60%;
+    }
+
+    .price__item2 {
+        margin-top: 55px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width : 480px) {
+
 }

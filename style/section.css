@@ -1,0 +1,73 @@
+.section {
+    padding: 100px 0;
+}
+
+.section--gray {
+    background-color: #f5f5f5;
+}
+
+.section__header {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.section__header--style {
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.section__title {
+    color: rgb(0, 0, 0);
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.section__title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    margin: 25px auto;
+    background-color: #ff8b38;
+}
+
+.section__title--style {
+    color: #fff;
+}
+
+.section__title--style:after {
+    background-color: #fff;
+}
+
+.section--contact {
+    padding: 50px 0;
+}
+
+.section__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878b;
+    line-height: 1.4;
+}
+
+/* Medium Devices, Desktops */
+@media screen and (max-width: 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width: 480px) {
+    .section__title {
+        font-size: 25px;
+    }
+}

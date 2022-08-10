@@ -5,7 +5,6 @@
 .sub__content {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .sub__info {
@@ -73,4 +72,37 @@
     font-weight: 400;
     color: #86878b;
     line-height: 1.4;
+}
+
+/* Medium Devices, Desktops */
+@media screen and (max-width: 992px) {
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width: 768px) {
+    .sub__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub__photo {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+
+    .sub__info {
+        margin-left: 0;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width: 480px) {
+    .item__title {
+        margin-left: 45px;
+    }
+
+    .item__text {
+        margin-left: 45px;
+    }
 }

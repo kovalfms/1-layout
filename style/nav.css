@@ -16,3 +16,93 @@
 .nav__link:hover {
     color: #ffffff;
 }
+
+.burger {
+    display: none;
+}
+
+.burger input {
+    display: none;
+}
+
+.burger nav ul li a {
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+.burger nav ul li a:hover {
+    color: #ffffff;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media screen and (max-width: 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #695e55;
+    }
+
+    .nav.active {
+        display: block;
+    }
+
+    .nav__link {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .nav__link:after {
+        top: 100%;
+    }
+
+    .burger {
+        display: block;
+        right: 20px;
+        color: #bdbdbd;
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+    .burger nav {
+        display: none;
+        position: absolute;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        top: 0;
+        margin-top: 70px;
+        right: 0;
+        background: #4d4646;
+        z-index: 9999;
+    }
+
+    #burger:checked + label + nav {
+        display: block;
+        animation: show .6s ease;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width: 480px) {
+
+}
