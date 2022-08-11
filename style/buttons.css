@@ -36,7 +36,12 @@
     background: #ff9b51;
 }
 
-
+@media only screen and (max-width: 768px) {
+    .btn__download,
+    .btn__orange {
+        width: 50%;
+    }
+}
 
 @media only screen and (max-width: 480px) {
     .btn__download,
