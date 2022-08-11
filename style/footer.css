@@ -25,3 +25,9 @@
     text-align: center;
 }
 
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .footer__icons{
+        margin-top: 25px;
+    }
+}

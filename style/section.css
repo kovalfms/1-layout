@@ -55,16 +55,6 @@
     line-height: 1.4;
 }
 
-/* Medium Devices, Desktops */
-@media screen and (max-width: 992px) {
-
-}
-
-/* Small Devices, Tablets */
-@media screen and (max-width: 768px) {
-
-}
-
 /* Extra Small Devices, Phones */
 @media screen and (max-width: 480px) {
     .section__title {

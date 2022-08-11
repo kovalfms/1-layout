@@ -57,11 +57,6 @@
     color: #a4a5a8;
 }
 
-/* Medium Devices, Desktops */
-@media screen and (max-width: 992px) {
-
-}
-
 /* Small Devices, Tablets */
 @media screen and (max-width: 768px) {
     .social__content {
@@ -74,8 +69,7 @@
     }
 
     .social__text {
-        margin-bottom: 20px;
-        text-align: center;
+        display: none;
     }
 
     .social__links {

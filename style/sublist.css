@@ -52,9 +52,8 @@
 
 .item__icon {
     position: absolute;
-    top: 10px;
+    top: 0;
     left: 0;
-    z-index: 1;
 }
 
 .item__title {
@@ -72,10 +71,6 @@
     font-weight: 400;
     color: #86878b;
     line-height: 1.4;
-}
-
-/* Medium Devices, Desktops */
-@media screen and (max-width: 992px) {
 }
 
 /* Small Devices, Tablets */

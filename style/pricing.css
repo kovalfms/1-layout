@@ -89,12 +89,6 @@
     border-bottom: 1px solid #f5f5f5;
 }
 
-
-/* Medium Devices, Desktops */
-@media screen and (max-width : 992px) {
-
-}
-
 /* Small Devices, Tablets */
 @media screen and (max-width : 768px) {
     .price {
@@ -114,5 +108,8 @@
 
 /* Extra Small Devices, Phones */
 @media screen and (max-width : 480px) {
+    .price__item {
+        width: 100%;
+    }
 
 }

@@ -81,5 +81,7 @@
 
 /* Extra Small Devices, Phones */
 @media screen and (max-width : 480px) {
-
+    .clients__item {
+        width: 100%;
+    }
 }
