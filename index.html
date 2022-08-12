@@ -20,19 +20,16 @@
                 <a href="#Reviews" class="nav__link">Reviews</a>
                 <a href="#Contact" class="nav__link">Contact</a>
             </nav>
-            <div class="burger">
-                <input type="checkbox" id="burger">
-                <label for="burger"><span class="burger-line"></span></label>
-                    <nav>
-                        <ul>
-                            <li><a href="#Features">Features</a></li>
-                            <li><a href="#About">About</a></li>
-                            <li><a href="#Pricing">Pricing</a></li>
-                            <li><a href="#Reviews">Reviews</a></li>
-                            <li><a href="#Contact">Contact</a></li>
-                        </ul>
-                    </nav>
-            </div>
+            <a href="#submenu" tabindex="1" class="burger"><span class="burger-line"></span></a>
+            <nav class="burger-nav" id='submenu'>
+                <ul class="sub-menu">
+                    <li><a href="#Features">Features</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Pricing">Pricing</a></li>
+                    <li><a href="#Reviews">Reviews</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>
@@ -84,6 +81,7 @@
             </div>
         </div>
     </div>
+
     <div class="divider"></div>
 
     <div class="social">

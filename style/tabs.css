@@ -116,9 +116,7 @@ input[type="radio"] {
     }
 
     .tabs__info {
-        display: flex;
         margin-top: 150px;
-        flex-direction: column;
         text-align: center;
         margin-left: 0;
         margin-right: 25px;
@@ -140,8 +138,15 @@ input[type="radio"] {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
     .tabs__item {
-        width: 70px;
+        width: 120px;
         height: 70px;
+    }
+
+    .tabs__btns {
+        flex-direction: row;
+        margin-left: 80px;
+        position: absolute;
+        top: 80px;
     }
 
     .tabs__info {
