@@ -1,7 +1,7 @@
 .stylish {
     width: 100%;
     position: relative;
-    background: url(/public/img/banner2.jpg) center no-repeat;
+    background: url('../public/img/banner2.jpg') center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     margin: 0 auto;

@@ -1,7 +1,7 @@
 .banner {
     width: 100%;
     position: relative;
-    background: url("/public/img/banner.png") fixed;
+    background: url("../public/img/banner.png") fixed;
     background-size: cover;
     margin-top: 70px;
 }
