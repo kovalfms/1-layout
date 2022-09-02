@@ -12,7 +12,7 @@
 <header class="header">
     <div class="container">
         <div class="header__content">
-            <div class="header__logo"><img src="../public/img/logo.png" alt="axit"></div>
+            <div class="header__logo"><img src="./public/img/logo.png" alt="axit"></div>
             <nav class="nav">
                 <a href="#Features" class="nav__link">Features</a>
                 <a href="#About" class="nav__link">About</a>
@@ -20,16 +20,27 @@
                 <a href="#Reviews" class="nav__link">Reviews</a>
                 <a href="#Contact" class="nav__link">Contact</a>
             </nav>
-            <a href="#submenu" tabindex="1" class="burger"><span class="burger-line"></span></a>
-            <nav class="burger-nav" id='submenu'>
-                <ul class="sub-menu">
-                    <li><a href="#Features">Features</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Pricing">Pricing</a></li>
-                    <li><a href="#Reviews">Reviews</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-            </nav>
+
+            <div class="menu-wrap">
+                <div tabindex="0" class="hamburger">
+                    <div></div>
+                </div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="#Features">Features</a></li>
+                                <li><a href="#About">About</a></li>
+                                <li><a href="#Pricing">Pricing</a></li>
+                                <li><a href="#Reviews">Reviews</a></li>
+                                <li><a href="#Contact">Contact</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </header>
@@ -40,7 +51,7 @@
             <div class="banner__content">
                 <div class="banner__item">
                     <div class="banner__logo">
-                        <img src="../public/img/big-logo.png" alt="AXIT">
+                        <img src="./public/img/big-logo.png" alt="AXIT">
                     </div>
                     <div class="banner__title">
                         MODERN AXURE TEMPLATE
@@ -105,7 +116,7 @@
         </div>
     </div>
 
-    <div class="tabs" id="Features">
+    <div id="Features" class="tabs">
         <div class="container">
             <div class="tabs__content">
                 <div class="tabs__btns">
@@ -164,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tabs__photo"><img class="tabs__img" src="../public/img/image_right_u25.png" alt="city"></div>
+                <div class="tabs__photo"><img class="tabs__img" src="./public/img/image_right_u25.png" alt="city"></div>
             </div>
         </div>
     </div>
@@ -173,7 +184,7 @@
         <div class="container">
             <div class="sub__content">
                 <div>
-                    <img class="sub__img" src="../public/img/image_left_sub.png" alt="roofs">
+                    <img class="sub__img" src="./public/img/image_left_sub.png" alt="roofs">
                 </div>
                 <div class="sub__info">
                     <div class="sub__title">Sub list section</div>
@@ -184,7 +195,7 @@
                     <div class="sub__items">
                         <div class="sub__item">
                             <div class="item__icon">
-                                <img src="../public/img/cloud-up.png" alt="cloud up">
+                                <img src="./public/img/cloud-up.png" alt="cloud up">
                             </div>
                             <div class="item__title">
                                 Title
@@ -196,7 +207,7 @@
                         </div>
                         <div class="sub__item">
                             <div class="item__icon">
-                                <img src="../public/img/cloud-down.png" alt="cloud down">
+                                <img src="./public/img/cloud-down.png" alt="cloud down">
                             </div>
                             <div class="item__title">
                                 Title
@@ -235,13 +246,13 @@
                     </div>
                 </div>
                 <div>
-                    <img class="standard__img" src="/public/img/image_right_sta.png" alt="roofs">
+                    <img class="standard__img" src="./public/img/image_right_sta.png" alt="roofs">
                 </div>
             </div>
         </div>
     </div>
 
-    <section class="section" id="About">
+    <section id="About" class="section">
         <div class="container">
             <div class="section__header">
                 <h3 class="section__title">WHY THIS AWESOME</h3>
@@ -251,7 +262,7 @@
             </div>
             <div class="why">
                 <div class="why__item">
-                    <img class="why__icon" src="/public/img/lamp.png" alt="lamp">
+                    <img class="why__icon" src="./public/img/lamp.png" alt="lamp">
                     <h4 class="why__title">Thoughtful Design</h4>
                     <div class="why__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
@@ -261,7 +272,7 @@
                 </div>
 
                 <div class="why__item">
-                    <img class="why__icon" src="/public/img/keyboard.png" alt="keyboard">
+                    <img class="why__icon" src="./public/img/keyboard.png" alt="keyboard">
                     <h4 class="why__title">Well Crafted</h4>
                     <div class="why__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
@@ -271,7 +282,7 @@
                 </div>
 
                 <div class="why__item">
-                    <img class="why__icon" src="/public/img/lightning.png" alt="lightning">
+                    <img class="why__icon" src="./public/img/lightning.png" alt="lightning">
                     <h4 class="why__title">Easy to Customize</h4>
                     <div class="why__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
@@ -283,7 +294,7 @@
         </div>
     </section>
 
-    <section class="section section--gray" id="Pricing">
+    <section id="Pricing" class="section section--gray">
         <div class="container">
             <div class="section__header">
                 <h3 class="section__title">PRICING OPTIONS</h3>
